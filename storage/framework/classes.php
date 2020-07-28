@@ -8,4 +8,6 @@
   'cms\\Controllers\\themes' => 'modules\\cms\\controllers\\themes.php',
   'system\\Controllers\\updates' => 'modules\\system\\controllers\\updates.php',
   'rainlab\\builder\\Plugin' => 'plugins\\rainlab\\builder\\Plugin.php',
+  'RainLab\\Builder\\Components\\RecordList' => 'plugins\\rainlab\\builder\\components\\RecordList.php',
+  'RainLab\\Builder\\Components\\RecordDetails' => 'plugins\\rainlab\\builder\\components\\RecordDetails.php',
 );

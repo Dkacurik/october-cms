@@ -12,7 +12,7 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* C:\xampp\htdocs\october-cms/themes/demo/partials/site/header.htm */
+/* C:\xampp\htdocs\october-cms/themes/demo/partials/site/nav.htm */
 class __TwigTemplate_f4f8c41197404663bd7f8cd769ff900165c1277e130ec30a9075b7e904e1822f extends \Twig\Template
 {
     private $source;
@@ -84,7 +84,7 @@ class __TwigTemplate_f4f8c41197404663bd7f8cd769ff900165c1277e130ec30a9075b7e904e
 
     public function getTemplateName()
     {
-        return "C:\\xampp\\htdocs\\october-cms/themes/demo/partials/site/header.htm";
+        return "C:\\xampp\\htdocs\\october-cms/themes/demo/partials/site/nav.htm";
     }
 
     public function isTraitable()
@@ -120,6 +120,6 @@ class __TwigTemplate_f4f8c41197404663bd7f8cd769ff900165c1277e130ec30a9075b7e904e
             </ul>
         </div>
     </div>
-</nav>", "C:\\xampp\\htdocs\\october-cms/themes/demo/partials/site/header.htm", "");
+</nav>", "C:\\xampp\\htdocs\\october-cms/themes/demo/partials/site/nav.htm", "");
     }
 }

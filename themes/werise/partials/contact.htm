@@ -1,0 +1,66 @@
+<section class="contact mt-5">
+    <div class="container-fluid">
+        <span class="contact-bg"></span>
+        <div class="section_content container py-5 h-100">
+            <div class="row align-middle">
+                <div class="col-lg-7 d-none d-lg-block position-relative">
+                    <img src="storage/app/media/layout/contact_icon.svg" alt="iMac" title="iMac" id="s4_img" class="contact-img">
+                </div>
+                <div class="col-lg-5 h-100 my-sm-5">
+                    <div class="content mx-auto text-center text-lg-left">
+                        <h2 class="text-white">MÁTE ZÁUJEM O NAŠE SLUŽBY ?</h2>
+                        <p class="mb-5 mt-4 text-white">Vyplňte náš formulár a popíšte svoje
+                            požiadavky. Vašu ponuku dôkladne analyzujeme a pomôžeme vášmu projektu <span class="font-weight-bold">rásť</span>.</p>
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" id="formButton" data-target="#formModal">KONTAKTUJTE NÁS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modal -->
+<div class="modal fade bd-example-modal-xl" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="container-fluid p-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-left">
+                        <h2 class="text-primary">KONTAKTNÝ FORMULÁR</h2>
+                        <p class="text-muted">Pošlite nám formulár s vašimi požiadavkami a my urobíme všetko preto, aby váš projekt mohol rásť.</p>
+                        <form>
+                            <div class="form-group">
+                                <label for="inputName">Meno a priezvisko <span class="text-secondary">*</span></label>
+                                <input type="text" class="form-control" id="inputName" aria-describedby="inputName" placeholder="John Dee">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail">Váš e-mail <span class="text-secondary">*</span></label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="dee@yahoo.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputTel">Vaše tel. číslo <span class="text-secondary">*</span></label>
+                                <input type="tel" class="form-control" id="inputTel" placeholder="484846532">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputText">Váš text <span class="text-secondary">*</span></label>
+                                <textarea class="form-control" id="inputText" rows="3"></textarea>
+                            </div>
+                            <div class="custom-control custom-checkbox mt-2 mb-3">
+                                <input type="checkbox" class="custom-control-input" id="inputAgree">
+                                <label class="custom-control-label text-break pt-1" for="inputAgree">Súhlasím s podmienkami <a href="">spracovania osobných údajov</a> na marketingové účely.</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">ODOSLAŤ</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="storage/app/media/layout/newsletter.svg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a href="#" class="btn btn-outline btn-square rounded-circle btn-lg back-to-top" role="button">
+    <img src="storage/app/media/icons/chevron-down.svg" class="back-to-top-arrow" alt="">
+</a>
