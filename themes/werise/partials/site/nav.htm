@@ -1,9 +1,8 @@
 <!-- Nav -->
 <nav class="navbar navbar-expand-lg navbar-white bg-white navbar-light py-3">
     <div class="container">
-        <a class="navbar-brand" href="#"><img src="storage/app/media/layout/werise_logo.svg" alt="" width="120px" height="35px"></a>
+        <a class="navbar-brand" href="{{ 'domov'|page }}"><img src="storage/app/media/layout/werise_logo.svg" alt="" width="120px" height="35px"></a>
         <button class="navbar-toggler nav-icon-custom border-0 collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <!--            <span class="navbar-toggler-icon"></span>-->
             <span></span>
             <span></span>
             <span></span>
@@ -13,25 +12,22 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav font-weight-bold py-4 py-lg-0 text-uppercase ml-auto text-center small align-items-center">
                 <li class="nav-item mx-2 my-lg-0 my-1">
-                    <a class="nav-link" href="#">Domov</a>
+                    <a class="nav-link" href="{{ 'domov'|page }}">Domov</a>
                 </li>
                 <li class="nav-item mx-2 my-lg-0 my-1">
-                    <a class="nav-link" href="#">O nás</a>
+                    <a class="nav-link" href="{{ 'onas'|page }}">O nás</a>
                 </li>
                 <li class="nav-item mx-2 my-lg-0 my-1">
-                    <a class="nav-link" href="#">Naše služby</a>
+                    <a class="nav-link" href="{{ 'sluzby'|page }}">Naše služby</a>
                 </li>
                 <li class="nav-item mx-2 my-lg-0 my-1">
-                    <a class="nav-link" href="#">Cenník</a>
+                    <a class="nav-link" href="{{ 'cennik'|page }}">Cenník</a>
                 </li>
                 <li class="nav-item mx-2 my-lg-0 my-1">
-                    <a class="nav-link" href="#">Referencie</a>
+                    <a class="nav-link" href="{{ 'referencie'|page }}">Referencie</a>
                 </li>
-                <!--                <li class="nav-item mx-2">-->
-                <!--                    <a class="nav-link" href="#">Blog</a>-->
-                <!--                </li>-->
                 <li class="nav-item nav-btn mx-2 my-lg-0 my-1">
-                    <a class="btn btn-primary" href="#">
+                    <a class="btn btn-primary" href="!" type="button" data-toggle="modal" id="formButton" data-target="#formModal">
                         <img src="storage/app/media/icons/phone.svg" alt="" height="14px" class="btn-icon mr-2">
                         Kontakt
                     </a>
